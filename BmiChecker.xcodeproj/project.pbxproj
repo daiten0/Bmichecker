@@ -281,7 +281,7 @@
 		7E2578B2229BDFCD0006371C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CNB9TA88NX;
 				INFOPLIST_FILE = BmiChecker/Info.plist;
@@ -299,7 +299,7 @@
 		7E2578B3229BDFCD0006371C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CNB9TA88NX;
 				INFOPLIST_FILE = BmiChecker/Info.plist;
