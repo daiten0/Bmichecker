@@ -26,7 +26,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     //体重を入力するフィールド
     @IBOutlet weak var weightText: UITextField!
     //BMI値を表示
-    @IBOutlet weak var BmiResultLabel: UILabel!
+    @IBOutlet weak var bmiResultLabel: UILabel!
     //アドバイスを表示
     @IBOutlet weak var adviceLabel: UILabel!
     //画像を表示
@@ -65,7 +65,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         errorText.text = ""
         let result = bmi(height: heightDouble, weight: weightDouble)
         let resultRound = round(result * 10)/10 //少数第二位で四捨五入
-        BmiResultLabel.text = String(resultRound) + "です"
+        bmiResultLabel.text = String(resultRound) + "です"
         //BMIの値ごとにアドバイス、画像を表示
         if result < 18.5 {
             adviceLabel.text = "痩せぎみです。食事の量を増やしましょう！"
